@@ -2,9 +2,7 @@
 
 ## Project Overview
 
-This project implements a Convolutional Neural Network (CNN) to classify handwritten digits from the MNIST dataset, a benchmark dataset in computer vision and machine learning. The MNIST dataset contains 60,000 training images and 10,000 test images of handwritten digits (0–9), each represented as a 28x28 grayscale image. The goal of this project is to build, train, and evaluate a CNN model using TensorFlow and Keras to accurately classify these digits, demonstrating proficiency in deep learning techniques for image classification.
-
-This project was developed as part of an effort to showcase skills in neural network design, data preprocessing, model training, and performance evaluation for a graduate-level Master’s in Artificial Intelligence program admissions panel. The code is written in Python and executed in a Jupyter Notebook environment, making it accessible and reproducible.
+This project implements a Convolutional Neural Network (CNN) to classify handwritten digits from the MNIST dataset, a benchmark dataset in computer vision and machine learning. The MNIST dataset contains 60,000 training images and 10,000 test images of handwritten digits (0–9), each represented as a 28x28 grayscale image. The goal of this project is to build, train, and evaluate a CNN model using TensorFlow and Keras to accurately classify these digits.
 
 ## Project Objectives
 
@@ -56,7 +54,7 @@ The model is compiled with:
 - **Loss Function**: Categorical cross-entropy.
 - **Metrics**: Accuracy.
 
-A `ReduceLROnPlateau` callback reduces the learning rate by a factor of 0.3 if validation loss does not improve for 3 epochs, with a minimum learning rate of 1e-6.
+
 
 ## Training
 
@@ -71,7 +69,7 @@ Training progress is visualized through plots of:
 
 ## Results
 
-Upon running the code, the following results were observed (based on execution in a Colab-like environment):
+Upon running the code, I obtained the following results:
 
 - **Model Summary**:
   - Total parameters: ~343,000 (mostly from the dense layers).
@@ -106,8 +104,8 @@ Upon running the code, the following results were observed (based on execution i
 
 1. **Clone the Repository**:
    ```bash
-   git clone <your-repo-url>
-   cd <repo-name>
+   git clone <(https://github.com/CoderChad/Handwritten-Digit-Classification-with-CNN/)>
+   cd <Handwritten-Digit-Classification-with-CNN>
    ```
 
 2. **Set Up Environment**:
@@ -131,24 +129,8 @@ Upon running the code, the following results were observed (based on execution i
 - **Real-World Application**: Extend the model to recognize digits in noisy or varied datasets.
 - **Model Interpretability**: Use techniques like Grad-CAM to visualize which parts of the image influence predictions.
 
-## Why This Project?
-
-This project demonstrates core competencies in deep learning, including:
-- **Data Handling**: Preprocessing and preparing image data for neural networks.
-- **Model Design**: Building a CNN with appropriate layers for image classification.
-- **Training and Optimization**: Using callbacks and regularization to improve performance.
-- **Evaluation and Visualization**: Analyzing and presenting results effectively.
-
-It serves as a strong example of applying machine learning to a well-known problem, showcasing both technical skills and the ability to communicate results clearly, which are critical for success in a Master’s in Artificial Intelligence program.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-For questions or feedback, please contact me via GitHub or email (replace with your contact information).
+For questions or feedback, please contact me via GitHub or at chadthomas089@gmail.com
 
----
-
-*This project was developed to demonstrate deep learning proficiency for a Master’s in AI program application. Thank you for reviewing!*
